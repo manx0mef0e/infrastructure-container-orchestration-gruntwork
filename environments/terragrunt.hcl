@@ -1,6 +1,5 @@
 remote_state {
-  required_version = ">= 0.12.13"
-  backend "azurerm" 
+  backend = "azurerm" 
   config = {
     resource_group_name  = "rg-ams-prod-core-tstate"
     storage_account_name = "terraformcoreprod"
