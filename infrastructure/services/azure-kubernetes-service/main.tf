@@ -31,7 +31,7 @@ locals {
 }
 
 module "azure_kubernetes_service" {
-  source                       = "../../../../modules/service/azure-kubernetes-service"
+  source                       = "/Users/adambarkes/projects/training/infrastructure-container-orchestration-gruntwork/modules/service/azure-kubernetes-service"
   resource_group_location      = local.resource_group_location
   resource_group_name          = local.resource_group_name
   tags                         = local.global_tags
